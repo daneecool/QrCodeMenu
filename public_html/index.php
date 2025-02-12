@@ -28,7 +28,7 @@
     echo "<h1 class='animated-title'>Greetings Infidels</h1>"; // Moved inside PHP but doesn't affect the rest of the page
     ?>
 
-    <h4>Attempting MySQL connection from PHP...</h4> <!-- This stays in place -->
+    <h4 style='font-size: 36px; color: black;'>Attempting MySQL connection from PHP...</h4> <!-- This stays in place -->
 
     <?php
     $host = 'mysql';
