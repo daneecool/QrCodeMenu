@@ -30,7 +30,7 @@ services:
     image: mysql:${MYSQL_VERSION:-latest}
     restart: always
     ports:
-      - "3307:3306"
+      - "3306:3306"
     volumes:
             - data:/var/lib/mysql
     networks:
@@ -41,6 +41,12 @@ services:
       MYSQL_USER: "${DB_USERNAME}"
       MYSQL_PASSWORD: "${DB_PASSWORD}"
     container_name: mysql_QrCode
+  adminer:
+    image: adminer
+    ports:
+      - "8080:8080"  # Access Adminer at http://localhost:80
+    networks:
+      - backend
 networks:
   frontend:
   backend:

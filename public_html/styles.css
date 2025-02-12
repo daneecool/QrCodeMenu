@@ -1,0 +1,24 @@
+/* Define the animation */
+@keyframes titleAnimation {
+    0% {
+        transform: translateX(-100%); /* Start offscreen to the left */
+        color: red; /* Start with red color */
+    }
+    50% {
+        transform: translateX(0); /* Move to the center */
+        color: orange; /* Change color to orange */
+    }
+    100% {
+        transform: translateX(100%); /* Move offscreen to the right */
+        color: yellow; /* End with yellow color */
+    }
+}
+
+/* Apply the animation to the title */
+h1 {
+    font-size: 48px;
+    font-family: Arial, sans-serif;
+    animation: titleAnimation 5s ease-in-out infinite;
+    text-align: center; /* Center the text */
+    margin-top: 100px; /* Adjust the top margin */
+}
