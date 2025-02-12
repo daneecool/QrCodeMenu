@@ -2,23 +2,38 @@
 @keyframes titleAnimation {
     0% {
         transform: translateX(-100%); /* Start offscreen to the left */
-        color: red; /* Start with red color */
+        opacity: 0; /* Start invisible */
     }
-    50% {
+    20% {
         transform: translateX(0); /* Move to the center */
-        color: orange; /* Change color to orange */
+        opacity: 1; /* Fully visible */
+    }
+    80% {
+        transform: translateX(0); /* Stay in center */
+        opacity: 1; /* Stay visible */
     }
     100% {
         transform: translateX(100%); /* Move offscreen to the right */
-        color: yellow; /* End with yellow color */
+        opacity: 0; /* End invisible */
     }
 }
 
 /* Apply the animation to the title */
 h1 {
-    font-size: 48px;
+    font-size: clamp(24px, 8vw, 48px); /* Responsive font size */
     font-family: Arial, sans-serif;
-    animation: titleAnimation 5s ease-in-out infinite;
-    text-align: center; /* Center the text */
-    margin-top: 100px; /* Adjust the top margin */
+    animation: titleAnimation 6s ease-in-out infinite;
+    text-align: center;
+    margin-top: 20vh; /* Use viewport height for responsive spacing */
+    white-space: nowrap;
+    padding: 0 20px; /* Add padding to prevent text from touching screen edges */
+    box-sizing: border-box;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    h1 {
+        animation-duration: 4s; /* Faster animation on mobile */
+        margin-top: 15vh; /* Adjust top margin for mobile */
+    }
 }
