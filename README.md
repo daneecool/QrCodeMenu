@@ -1,4 +1,4 @@
-Containerize This: PHP/Apache/MySQL
+Containerize This: PHP/Apache/MySQL/Adminer
 ===================================
 
 ### Intro
@@ -8,6 +8,8 @@ There are 5 simple files for this demo that you can clone from https://github.co
 
 ```
 /php-apache-mysql/
+├── adminer
+│   ├── Dockerfile
 ├── apache
 │   ├── Dockerfile
 │   └── demo.apache.conf
@@ -16,6 +18,7 @@ There are 5 simple files for this demo that you can clone from https://github.co
 │   └── Dockerfile
 └── public_html
     └── index.php
+    └── where all the magic happens...
 ```
 
 Once this structure is replicated or cloned with these files, and Docker installed locally, you can simply run "docker-compose up" from the root of the project to run this entire demo, and point your browser (or curl) to http://localhost:80 to see the demo. We will get into what "docker-compose" is, and what makes up this basic demonstration in the following sections!
@@ -92,6 +95,12 @@ services:
       MYSQL_USER: "${DB_USERNAME}"
       MYSQL_PASSWORD: "${DB_PASSWORD}"
     container_name: mysql
+ adminer:
+    image: adminer
+    ports:
+      - "8081:8080"  # Access Adminer at http://localhost:80
+    networks:
+      - backend
 networks:
   frontend:
   backend:
