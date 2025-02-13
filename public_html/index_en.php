@@ -17,7 +17,7 @@
         </button>
       </li>
       <li class="active">
-        <a href="index.html">
+        <a href="index.php">
           <img src="icons/icons8-beer-32.png" alt="Toggle Menu" width="24" height="24">  
           <span>Beer</span>
         </a>
@@ -91,8 +91,12 @@
       </p>
     </div>
     <div class="container">
-      <h2>Example Heading 00</h2>
-      <p> example of writting </p>
+      <h2> Wifi Available in the bar </h2>
+      <p> password : Happy_New_Year 
+        <button onclick="copyPassword()" 
+                class="copy-button">Copy Password
+        </button>
+      </p>
     </div>
     <div class="container">
       <h2>Example Heading 01</h2>
