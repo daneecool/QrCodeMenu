@@ -37,7 +37,7 @@
       <li>
         <a href="dashboard.html">
         <img src="icons/sake.png" alt="Toggle Menu" width="24" height="24">  
-          <span>Japanese</span>
+          <span>Japanese Sake</span>
         </a>
       </li>
       <li>
