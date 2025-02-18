@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Language Selection</title>
+  <link rel="stylesheet" href="style.css">
+    
     <style>
         body {
             display: flex;
@@ -35,7 +37,11 @@
     </style>
 </head>
 <body>
-    <h2>Language Selection 言語選択</h2>
+    <br><br>
+    <p>OPEN</p>
+    <br><br>
+    <h2>Language Selection ・ 言語選択</h2>
+    <br><br>
     <div class="container">
         <button onclick="location.href='index_en.php'">English</button>
         <button onclick="location.href='index_jp.php'">日本語</button>
