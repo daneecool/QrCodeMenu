@@ -21,5 +21,9 @@
 
 ## Architecture Flow
 
-### PHP
-- easy algorithm for database connection and test
+### HTML
+- basic design for functionality has been tested 
+
+- Problem encounter
+    - in mobile 800px, there is a minor click issue
+    - when any button being click, the page will refresh to its initial position.
