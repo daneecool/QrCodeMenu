@@ -20,6 +20,8 @@
         .container {
             display: flex;
             gap: 20px;
+            flex-wrap: nowrap; /* Prevent wrapping */
+            margin: 20px 0; /* Add margin to the top and bottom */
         }
         button {
             padding: 10px 20px;
@@ -30,6 +32,7 @@
             background-color: #007BFF;
             color: white;
             transition: 0.3s;
+            flex-shrink: 0; /* Prevent buttons from shrinking */
         }
         button:hover {
             background-color: #0056b3;
