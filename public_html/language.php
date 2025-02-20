@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Language Selection</title>
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     
     <style>
         body {
@@ -40,11 +40,15 @@
     <br><br>
     <p>OPEN</p>
     <br><br>
-    <h2>Language Selection ・ 言語選択</h2>
+    <h2>Language Selection</h2>
+    <br>
+    <h2>言語を選択</h2>
     <br><br>
     <div class="container">
+        <br>
         <button onclick="location.href='index_en.php'">English</button>
         <button onclick="location.href='index_jp.php'">日本語</button>
+        <br>
     </div>
 </body>
 </html>
