@@ -289,3 +289,13 @@ main p{
 .copy-button:hover {
   background-color: #0056b3;
 }
+
+.map-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px; /* Adjust this value as needed */
+}
+.map-link a {
+  font-size: 1.7em; /* Adjust this value as needed */
+}

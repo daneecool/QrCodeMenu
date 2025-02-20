@@ -106,7 +106,15 @@
 
     <div class="container">
       <h2>Join Us in Instagram</h2>
-      <p> example of qrcode </p>
+      <br>
+      <div class="map-link">
+        <a href="https://www.google.com/maps/search/?api=1&query=〒850-0901+長崎県長崎市本石灰町１−７" target="_blank">
+          <img src="icons/map.png" alt="Map Pin" width="30" height="30"> Find Your Way to Us!
+        </a>
+      </div>
+      <br>
+      <img src="QrCode/iwi.jpg" alt="QR Code" width="200" height="200">      
+      <br>
     </div>
   </main>
 </body>

@@ -1,5 +1,14 @@
 version: "3.2"
 services:
+  linux:
+      image: ubuntu:latest  
+      container_name: my_linux
+      tty: true  
+      stdin_open: true
+      volumes:
+        - ./data:/data  
+      networks:
+        - my_network
   php:
     build: 
       context: './php/'
@@ -48,6 +57,8 @@ services:
     networks:
       - backend
 networks:
+  my_network:
+    driver: bridge
   frontend:
   backend:
 volumes:
