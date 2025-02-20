@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
   <link rel="stylesheet" href="style.css">
-  <script type="text/javascript" src="app.js" defer></script>
-  <script type="text/javascript" src="encript_passwd.js" defer></script>
+  <script type="text/javascript" src="api/app.js" defer></script>
+  <script type="text/javascript" src="api/encript_passwd.js" defer></script>
 </head>
 
 <body>
