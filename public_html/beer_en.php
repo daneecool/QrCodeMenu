@@ -80,7 +80,7 @@
   </nav>
   <main>
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">      //change icons/icons.png -> pic/beer.png
+      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">      //change icons/icons.png -> pic/beer.png    alt"name"
       <h3>Beer</h3>
       <div class="description-box">
         <p>A refreshing beverage made from fermented grains.</p>
