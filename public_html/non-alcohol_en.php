@@ -83,7 +83,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"For when you need to stay bubbly without the hangover." 🥤✨</p>
       </div>
     </div>
 
@@ -91,7 +91,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"The drink that’s sweet, spicy, and totally underrated." 🍹🔥</p>
       </div>
     </div>
 
@@ -99,7 +99,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"The perfect balance between ‘I need caffeine’ and ‘I need peace’." ☕🍵</p>
       </div>
     </div>
     
@@ -107,7 +107,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"The OG fruit drink that never goes out of style." 🍎✨</p>
       </div>
     </div>
 
@@ -115,7 +115,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"For when your taste buds need a tropical getaway." 🍍✈️</p>
       </div>
     </div>
 
@@ -123,7 +123,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"The drink that’ll have you saying ‘Orange you glad I didn’t choose soda?’" 😜🍊</p>
       </div>
     </div>
 
@@ -131,7 +131,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"The drink that says, ‘I’m sweet... but not too sweet.’" 🍹🍊</p>
       </div>
     </div>
     
@@ -139,7 +139,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"The drink that says, ‘I’m not just for Bloody Marys, but I’ll still show up at brunch.’" 🍅</p>
       </div>
     </div>
 
@@ -147,7 +147,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"The drink that makes you feel like a superhero... until the crash." 💥🦸‍♀️</p>
       </div>
     </div>
   </main>

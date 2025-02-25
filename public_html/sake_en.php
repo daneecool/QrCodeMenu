@@ -83,7 +83,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"The drink that makes your evening feel a little more zen... and a little less predictable." 🧘‍♂️🍶</p>
       </div>
     </div>
 
@@ -91,7 +91,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"The drink that proves potatoes are more than just fries." 🍠🍸</p>
       </div>
     </div>
 
@@ -99,7 +99,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"Turning ‘cheers’ into ‘golden moments.’" 🥂✨</p>
       </div>
     </div>
     
@@ -107,7 +107,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"Sweet enough to make you say ‘I’ll have another,’ without the guilt." 🍑🥂</p>
       </div>
     </div>
 

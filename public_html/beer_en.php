@@ -83,7 +83,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"The star that actually gets you buzzed." ⭐🍺</p>
       </div>
     </div>
 
@@ -91,7 +91,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"Brewed under Okinawa’s sun, enjoyed under questionable decisions." 🌞🍺</p>
       </div>
     </div>
 
@@ -99,7 +99,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"Why fight dragons when you can drink one?" 🐲🍺</p>
       </div>
     </div>
     
@@ -107,7 +107,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"Crisp, cool, and better than your ex’s texts." 📱❌🍻</p>
       </div>
     </div>
 
@@ -115,7 +115,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"No label, no worries—just pure, tree-mendous beer!" 🌳🍺</p>
       </div>
     </div>
 
@@ -123,7 +123,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"Half beer, half lemonade, all good decisions." 🍻🍋👍</p>
       </div>
     </div>
 
@@ -131,7 +131,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"The only virus you actually want to catch , Coronas up." 😷🍺</p>
       </div>
     </div>
 
@@ -139,7 +139,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"Because bitterness is best served cold." 🍺😜</p>
       </div>
     </div>
 
@@ -147,7 +147,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"A high-five you can actually drink." ✋🍻</p>
       </div>
     </div>
 
@@ -155,7 +155,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"Because good times don’t come in single servings." 🍻🎉</p>
       </div>
     </div>
 
@@ -163,7 +163,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"The perfect way to catch a good virus." 🍻😉</p>
       </div>
     </div>
 
