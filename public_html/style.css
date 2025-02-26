@@ -223,9 +223,19 @@ main p{
       } 
     }
   }
+
+  .item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item h3 {
+    margin-top: 10px;
+  }
 }
 
 .item {
+  gap: 20px;
   display: flex;
   align-items: center;
   border: 1px solid var(--line-clr);
@@ -236,6 +246,7 @@ main p{
 }
 
 .description-box {
+  margin-right: auto;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid var(--line-clr);
@@ -297,5 +308,5 @@ main p{
   margin-top: -20px; /* Adjust this value as needed */
 }
 .map-link a {
-  font-size: 1.7em; /* Adjust this value as needed */
+  font-size: 1.5em; /* Adjust this value as needed */
 }

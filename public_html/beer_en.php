@@ -32,8 +32,8 @@
       </li>
       <li class="active">
         <a href="beer_en.php">
-        <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
-        <span>Beer</span>
+          <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
+          <span>Beer</span>
         </a>
       </li>
       <li>
@@ -80,48 +80,49 @@
   </nav>
   <main>
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
-      <h3>Beer</h3>
+      <img src="DrinksImage/Beer/Sapporo.jpg" alt="Sapporo" width="150" height="200">
+      <h3>Sapporo</h3>
       <div class="description-box">
         <p>"The star that actually gets you buzzed." ⭐🍺</p>
       </div>
     </div>
 
+
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
-      <h3>Beer</h3>
+      <img src="DrinksImage/Beer/Orion.jpg" alt="Orion" width="130" height="150">
+      <h3>Orion</h3>
       <div class="description-box">
         <p>"Brewed under Okinawa’s sun, enjoyed under questionable decisions." 🌞🍺</p>
       </div>
     </div>
 
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
-      <h3>Beer</h3>
+      <img src="DrinksImage/Beer/Kirin.png" alt="Kirin" width="130" height="150">
+      <h3>Kirin Draught</h3>
       <div class="description-box">
         <p>"Why fight dragons when you can drink one?" 🐲🍺</p>
       </div>
     </div>
-    
+
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
-      <h3>Beer</h3>
+      <img src="DrinksImage/Beer/Heineken.jpg" alt="Heineken" width="130" height="200">
+      <h3>Heineken</h3>
       <div class="description-box">
         <p>"Crisp, cool, and better than your ex’s texts." 📱❌🍻</p>
       </div>
     </div>
 
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
-      <h3>Beer</h3>
+      <img src="DrinksImage/Beer/Heartland.jpg" alt="Heartland" width="150" height="200">
+      <h3>Heartland</h3>
       <div class="description-box">
         <p>"No label, no worries—just pure, tree-mendous beer!" 🌳🍺</p>
       </div>
     </div>
 
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
-      <h3>Beer</h3>
+      <img src="DrinksImage/Beer/Corona.jpg" alt="Corona Extra" width="130" height="160">
+      <h3>Corona Extra</h3>
       <div class="description-box">
         <p>"Half beer, half lemonade, all good decisions." 🍻🍋👍</p>
       </div>
@@ -147,21 +148,21 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>"A high-five you can actually drink." ✋🍻</p>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
-      <h3>Beer</h3>
-      <div class="description-box">
         <p>"Because good times don’t come in single servings." 🍻🎉</p>
       </div>
     </div>
 
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
-      <h3>Beer</h3>
+      <img src="DrinksImage/Beer/Bucket.jpg" alt="Heineken Bucket" width="120" height="130">
+      <h3>Heineken Bucket of "5"</h3>
+      <div class="description-box">
+        <p>"A high-five you can actually drink." ✋🍻</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="DrinksImage/Beer/Bucket1.jpg" alt="Corona Bucket" width="120" height="130">
+      <h3>Corona Bucket of "5"</h3>
       <div class="description-box">
         <p>"The perfect way to catch a good virus." 🍻😉</p>
       </div>
