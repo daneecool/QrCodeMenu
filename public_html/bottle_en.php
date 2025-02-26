@@ -83,7 +83,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A taste of luxury, without the price tag of a yacht." 🛥️🥃</p>
+        <p>"A taste of luxury, without the price tag of a yacht." 🛥️🥃</p>
       </div>
     </div>
 
@@ -107,7 +107,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>The only bottle that makes you wonder, ‘How did I get here... and when’s the next shot?’" 😅🥃</p>
+        <p>"The only bottle that makes you wonder, ‘How did I get here... and when’s the next shot?’" 😅🥃</p>
       </div>
     </div>
 </body>

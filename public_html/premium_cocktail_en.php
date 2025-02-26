@@ -83,7 +83,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"‘Cause this is thriller, sip tonight! And no one’s gonna save you from this tiki bite! Zombie’s got that spooky thrill, take a sip and feel the chaos!" 🧟‍♂️🍹🎶</p>
       </div>
     </div>
 
@@ -91,7 +91,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"Because sometimes, your night needs an explosion of energy… and questionable decisions! 💥🍷⚡"</p>
       </div>
     </div>
 
@@ -99,7 +99,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"The smoothest way to forget what time it is!" ⏳🍸</p>
       </div>
     </div>
     
@@ -107,7 +107,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"One sip and you’re surfing straight into paradise!" 🏄‍♂️🍹</p>
       </div>
     </div>
 
@@ -115,7 +115,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"The drink that’s as smooth as silk and as bold as a dragon!" 🐉🍸</p>
       </div>
     </div>
 
@@ -123,7 +123,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"The only ride you’ll never want to get out of!" 🚀🍹</p>
       </div>
     </div>
 
@@ -131,7 +131,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"One sip and you’re lighting up like Shibuya at midnight!" 🍹</p>
       </div>
     </div>
     
@@ -139,7 +139,7 @@
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>A refreshing beverage made from fermented grains.</p>
+        <p>"Smooth, sweet, and sneaky—just like a ninja in the night!" 🥷🍸</p>
       </div>
     </div>
   </main>
