@@ -41,18 +41,17 @@ body {
     display: flex;
     gap: 20px;
     flex-wrap: nowrap;
-    /* Prevent wrapping */
-    /* Add margin to the top and bottom */
-    margin: 20px 0;
-
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Center the buttons vertically */
+    margin: 20px auto; /* Center the container horizontally */
     border: 1px solid var(--line-clr);
-    border-radius: 1em;
-    margin-bottom: 20px;
+    border-radius: 1em; /* Adjusted border radius */
     padding: min(3em, 15%);
+    max-width: 300px; /* Set a maximum width for the container */
 
     h2,
     p {
-        margin-top: 1em
+        margin-top: 1em;
     }
 
     p1 {
