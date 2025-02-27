@@ -37,6 +37,12 @@
         </a>
       </li>
       <li>
+        <a href="wine_en.php">
+          <img src="icons/icons8-wine-and-glass-32.png" alt="Beer" width="32" height="32">
+          <span>Wine</span>
+        </a>
+      </li>
+      <li>
         <a href="shot_en.php">
           <img src="icons/icons8-vodka-shot-32.png" alt="Toggle Menu" width="24" height="24">
           <span>Shot</span>
@@ -153,7 +159,7 @@
     </div>
 
     <div class="item">
-      <img src="DrinksImage/Beer/Bucket.jpg" alt="Heineken Bucket" width="120" height="130">
+      <img src="DrinksImage/Beer/Bucket.jpg" alt="Heineken Bucket" width="100" height="130">
       <h3>Heineken Bucket of "5"</h3>
       <div class="description-box">
         <p>"A high-five you can actually drink." ✋🍻</p>
@@ -161,7 +167,7 @@
     </div>
 
     <div class="item">
-      <img src="DrinksImage/Beer/Bucket1.jpg" alt="Corona Bucket" width="120" height="130">
+      <img src="DrinksImage/Beer/Bucket1.jpg" alt="Corona Bucket" width="110" height="130">
       <h3>Corona Bucket of "5"</h3>
       <div class="description-box">
         <p>"The perfect way to catch a good virus." 🍻😉</p>

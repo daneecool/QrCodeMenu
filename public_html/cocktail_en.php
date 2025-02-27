@@ -39,6 +39,12 @@
                 </a>
             </li>
             <li>
+                <a href="wine_en.php">
+                    <img src="icons/icons8-wine-and-glass-32.png" alt="Beer" width="32" height="32">
+                    <span>Wine</span>
+                </a>
+            </li>
+            <li>
                 <a href="shot_en.php">
                     <img src="icons/icons8-vodka-shot-32.png" alt="Toggle Menu" width="24" height="24">
                     <span>Shot</span>
@@ -380,7 +386,8 @@
             <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
             <h3>Beer</h3>
             <div class="description-box">
-                <p>"If you like drinking in the rain, with a splash of rum and a tropical gain, come sip with me, and we’ll escape to paradise! 🍍🍹🌴"</p>
+                <p>"If you like drinking in the rain, with a splash of rum and a tropical gain, come sip with me, and
+                    we’ll escape to paradise! 🍍🍹🌴"</p>
             </div>
         </div>
 

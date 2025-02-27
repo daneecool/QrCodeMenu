@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 :root{
   --base-clr: #11121a;
+  /* --base-clr: #094b26; */
   --line-clr: #42434a;
   --hover-clr: #222533;
   --text-clr: #e6e6ef;
@@ -22,6 +23,11 @@ body{
   color: var(--text-clr);
   display: grid;
   grid-template-columns: auto 1fr;
+  /* background-image: url('background-pic/iwibar.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(2px); */
 }
 #sidebar{
   box-sizing: border-box;
@@ -169,6 +175,7 @@ main p{
     bottom: 0;
     overflow-x: scroll;
     scroll-behavior: smooth; 
+    -webkit-overflow-scrolling: touch;
 
     > ul{
       padding: 0;
@@ -305,8 +312,8 @@ main p{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -20px; /* Adjust this value as needed */
+  margin-top: -20px; 
 }
 .map-link a {
-  font-size: 1.5em; /* Adjust this value as needed */
+  font-size: 1.5em; 
 }

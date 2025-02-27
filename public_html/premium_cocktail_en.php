@@ -32,8 +32,14 @@
       </li>
       <li>
         <a href="beer_en.php">
-        <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
-        <span>Beer</span>
+          <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
+          <span>Beer</span>
+        </a>
+      </li>
+      <li>
+        <a href="wine_en.php">
+          <img src="icons/icons8-wine-and-glass-32.png" alt="Beer" width="32" height="32">
+          <span>Wine</span>
         </a>
       </li>
       <li>
@@ -79,11 +85,21 @@
     </ul>
   </nav>
   <main>
+    <!-- <div class="item"
+      style="background-image: url('background/point.webp'); background-size: cover; background-position: center;">
+      <img src="icons/icons8-wine-32.png" alt="Beer" width="32" height="32">
+      <h3>Beer</h3>
+      <div class="description-box">
+        <p>"‘Cause this is thriller, sip tonight! And no one’s gonna save you from this tiki bite! Zombie’s got that
+          spooky thrill, take a sip and feel the chaos!" 🧟‍♂️🍹🎶</p>
+      </div>
+    </div> -->
     <div class="item">
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
-        <p>"‘Cause this is thriller, sip tonight! And no one’s gonna save you from this tiki bite! Zombie’s got that spooky thrill, take a sip and feel the chaos!" 🧟‍♂️🍹🎶</p>
+        <p>"‘Cause this is thriller, sip tonight! And no one’s gonna save you from this tiki bite! Zombie’s got that
+          spooky thrill, take a sip and feel the chaos!" 🧟‍♂️🍹🎶</p>
       </div>
     </div>
 
@@ -102,7 +118,7 @@
         <p>"The smoothest way to forget what time it is!" ⏳🍸</p>
       </div>
     </div>
-    
+
     <div class="item">
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
@@ -134,7 +150,7 @@
         <p>"One sip and you’re lighting up like Shibuya at midnight!" 🍹</p>
       </div>
     </div>
-    
+
     <div class="item">
       <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
       <h3>Beer</h3>
