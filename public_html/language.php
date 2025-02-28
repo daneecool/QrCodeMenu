@@ -79,7 +79,8 @@
     
     ?>
     <br><br>
-    <p><img src="background-pic/iwibar.webp" alt="Open" /></p>
+    <!-- <p><img src="background-pic/iwibar.webp" alt="Open" /></p> -->
+    <p>Open</p>
     <br><br>
     <h2>Language Selection</h2>
     <br>
