@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
-  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <!-- anti cache -->
+  <link rel="stylesheet" href="style.css?v=<?= time() ?>">
   <script type="text/javascript" src="api/app.js" defer></script>
   <script type="text/javascript" src="api/encript_passwd.js" defer></script>
 </head>
@@ -86,8 +88,20 @@
     </ul>
   </nav>
   <main>
-    <div class="container">
-      <h2>Test00</h2>
+    <div class="container" id="dynamic-container">
+      <h2>Menu is at the top bar, swipe to choose different categories</h2>
+      <div id="qr-code-container" style="display: none;">
+        <!-- <img src="path/qrcode.png" alt="QR Code" /> Replace with your QR code image -->
+      </div>
+      <p>Opens port
+        <br>
+        <br>
+        Close port
+      </p>
+    </div>
+
+    <div class="container" id="dynamic-container0">
+      <h2>Open</h2>
       <div id="qr-code-container" style="display: none;">
         <!-- <img src="path/qrcode.png" alt="QR Code" /> Replace with your QR code image -->
       </div>
@@ -114,12 +128,12 @@
       <h2>Join Us in Instagram</h2>
       <br>
       <div class="map-link">
-        <a href="https://www.google.com/maps/search/?api=1&query=〒850-0901+長崎県長崎市本石灰町１−７" target="_blank">
+        <!-- <a href="https://www.google.com/maps/search/?api=1&query=〒850-0901+長崎県長崎市本石灰町１−７" target="_blank">
           <img src="icons/map.png" alt="Map Pin" width="30" height="30"> Find Your Way to Us!
-        </a>
+        </a> -->
       </div>
       <br>
-      <img src="QrCode/iwi.jpg" alt="QR Code" width="200" height="200">      
+      <!-- <img src="QrCode/iwi.jpg" alt="QR Code" width="200" height="200">       -->
       <br>
     </div>
   </main>

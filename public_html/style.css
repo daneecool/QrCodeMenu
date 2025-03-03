@@ -44,6 +44,16 @@ body{
   overflow: hidden;
   text-wrap: nowrap;
 }
+#sidebar::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px; 
+  background-color: var(--line-clr); 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 #sidebar.close{
   padding: 5px;
   width: 60px;
@@ -133,6 +143,7 @@ body{
 
 main{
   padding: min(30px, 7%);
+  padding-top: 80px; 
 }
 main p{
   color: var(--secondary-text-clr);
@@ -153,27 +164,40 @@ main p{
     font-size: 16px;}
 }
 
+#dynamic-container {
+  display: none;
+}
+
 @media(max-width: 800px){
   body{
     grid-template-columns: 1fr;
   }
   main{
     padding: 2em 1em 60px 1em;
+    padding-top: 80px; 
   }
   .container{
     border: none;
     padding: 0;
   }
+
+  #dynamic-container {
+    display: block;
+  }
+
   #sidebar{
     height: 60px;
     width: 100%;
     border-right: none;
-    border-top: 1px solid var(--line-clr);
+    /* border-top: 1px solid var(--line-clr); */
+    border-bottom: 1px solid var(--line-clr);
     padding: 0;
-    position: fixed;
+    position: sticky;
     top: unset;
-    bottom: 0;
-    overflow-x: scroll;
+    /* bottom: 0; */
+    top: 0;
+    /* overflow-x: scroll; */
+    overflow-x: auto;
     scroll-behavior: smooth; 
     -webkit-overflow-scrolling: touch;
 
@@ -206,15 +230,21 @@ main p{
     
     ul li .sub-menu.show{
       position: fixed;
-      bottom: 60px;
+      /* position: sticky; */
+      /* bottom: 60px; */
+      margin-right: 60px;
+      top: 60px;
       left: 0;
       box-sizing: border-box;
-      height: 60px;
+      /* height: 60px; */
+      height: auto;
       width: 100%;
       background-color: var(--hover-clr);
-      border-top: 1px solid var(--line-clr);
+      /* border-top: 1px solid var(--line-clr); */
+      border-bottom: 1px solid var(--line-clr);
       display: flex;
       justify-content: center;
+      z-index: 1000; 
 
       > div{
         overflow-x: auto;
@@ -231,6 +261,10 @@ main p{
     }
   }
 
+  #sidebar:has(.sub-menu.show) {
+    height: 120px;
+  }
+
   .item {
     flex-direction: column;
     align-items: center;
@@ -238,6 +272,16 @@ main p{
 
   .item h3 {
     margin-top: 10px;
+  }
+
+  #dynamic-container0 {
+    display: none;
+  }
+}
+
+@media (min-width: 801px) {
+  #dynamic-container0 {
+    display: block;
   }
 }
 
@@ -261,7 +305,6 @@ main p{
   max-width: 250px; 
 }
 
-/* To center the category horizontally and vertically */
 .category {
   display: flex;
   justify-content: center; 
@@ -271,7 +314,6 @@ main p{
   margin-bottom: 10px;
 }
 
-/* Optionally, if the container is smaller than the category itself, you can also center the container: */
 .container{
   border: 1px solid var(--line-clr);
   border-radius: 1em;
@@ -284,7 +326,6 @@ main p{
   width: 80%;    
 }
 
-/* Styling the horizontal line */
 .line {
   width: 100%;
   height: 1px; 
