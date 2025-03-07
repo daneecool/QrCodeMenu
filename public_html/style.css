@@ -318,7 +318,8 @@ main p {
 }
 
 .description-box {
-  margin-right: auto;
+  /* margin-right: auto; */
+  margin-left: auto;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid var(--line-clr);
