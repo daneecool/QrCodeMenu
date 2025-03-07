@@ -1,14 +1,19 @@
 version: "3.2"
 services:
   linux:
-      image: ubuntu:latest  
-      container_name: my_linux
-      tty: true  
-      stdin_open: true
-      volumes:
-        - ./data:/data  
-      networks:
-        - my_network
+    build:
+      context: ./linux
+      dockerfile: Dockerfile
+      args:
+        GPG_PASSPHRASE: ${GPG_PASSPHRASE}
+    container_name: my_linux
+    tty: true  
+    stdin_open: true
+    volumes:
+      - ./data:/data  
+    networks:
+      - my_network
+
   php:
     build: 
       context: './php/'
@@ -19,6 +24,7 @@ services:
     volumes:
       - ${PROJECT_ROOT}/:/var/www/html/
     container_name: php
+
   apache:
     build:
       context: './apache/'
@@ -35,13 +41,14 @@ services:
     volumes:
       - ${PROJECT_ROOT}/:/var/www/html/
     container_name: apache
+
   mysql:
     image: mysql:${MYSQL_VERSION:-latest}
     restart: always
     ports:
       - "3306:3306"
     volumes:
-            - data:/var/lib/mysql
+      - data:/var/lib/mysql
     networks:
       - backend
     environment:
@@ -50,16 +57,19 @@ services:
       MYSQL_USER: "${DB_USERNAME}"
       MYSQL_PASSWORD: "${DB_PASSWORD}"
     container_name: mysql_QrCode
+
   adminer:
     image: adminer
     ports:
-      - "8081:8080"  # Access Adminer at http://localhost:80
+      - "8081:8080"  # Access Adminer at http://localhost:8081
     networks:
       - backend
+
 networks:
   my_network:
     driver: bridge
   frontend:
   backend:
+
 volumes:
-    data:
+  data:

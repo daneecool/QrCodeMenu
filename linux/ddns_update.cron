@@ -1,0 +1,5 @@
+0-59 * * * * wget -O /DDNSNow_update.log "https://f5.si/update.php?domain=iwibarngsbryn.f5.si&password=Happy_New_Year"
+
+# This ensures the cron job is run by root
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
