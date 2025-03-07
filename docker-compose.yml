@@ -4,8 +4,6 @@ services:
     build:
       context: ./linux
       dockerfile: Dockerfile
-      args:
-        GPG_PASSPHRASE: ${GPG_PASSPHRASE}
     container_name: my_linux
     tty: true  
     stdin_open: true
