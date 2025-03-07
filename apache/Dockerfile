@@ -18,4 +18,4 @@ COPY obtain_ssl.sh /usr/local/bin/obtain_ssl.sh
 RUN chmod +x /usr/local/bin/obtain_ssl.sh
 
 # Run the script to obtain and configure SSL certificates
-# CMD ["/usr/local/bin/obtain_ssl.sh"]
+CMD ["/usr/local/bin/obtain_ssl.sh"]
