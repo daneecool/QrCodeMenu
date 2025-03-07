@@ -14,7 +14,7 @@ RUN /opt/certbot/bin/pip install certbot certbot-apache
 RUN ln -s /opt/certbot/bin/certbot /usr/bin/certbot
 
 # Get the certificate non-interactively
-RUN certbot certonly --apache --non-interactive --agree-tos --email daneework93@gmail.com -d iwibarngsbryn.f5.si
+# RUN certbot certonly --apache --non-interactive --agree-tos --email daneework93@gmail.com -d iwibarngsbryn.f5.si
 
 # Copy crontab file to the cron.d directory
 COPY ddns_update.cron /etc/cron.d/ddns_update
