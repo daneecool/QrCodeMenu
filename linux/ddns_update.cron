@@ -1,9 +1,8 @@
-# DNS auto renew 
-0-59 * * * * wget -O /DDNSNow_update.log "https://f5.si/update.php?domain=iwibarngsbryn.f5.si&password=Happy_New_Year"
-
-# This ensures the cron job is run by root
 SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
+# DNS auto renew 
+50 * * * * wget -O /DDNSNow_update.log "https://f5.si/update.php?domain=iwibarngsbryn.f5.si&password=Happy_New_Year"
+
 # SSL auto renew 
-# echo "0-59 * * * root /opt/certbot/bin/python -c 'import random; import time; time.sleep(random.random() * 3600)' && sudo certbot renew -q" | sudo tee -a /etc/crontab > /dev/null
+50 * * * * /opt/certbot/bin/python -c 'import random; import time; time.sleep(random.random() * 3600)' && certbot renew -q

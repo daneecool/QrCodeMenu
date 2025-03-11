@@ -14,8 +14,8 @@ RUN echo "Include /usr/local/apache2/conf/demo.apache.conf" \
     >> /usr/local/apache2/conf/httpd.conf
 
 # Copy the script to obtain and configure SSL certificates
-COPY obtain_ssl.sh /usr/local/bin/obtain_ssl.sh
-RUN chmod +x /usr/local/bin/obtain_ssl.sh
+# COPY obtain_ssl.sh /usr/local/bin/obtain_ssl.sh
+# RUN chmod +x /usr/local/bin/obtain_ssl.sh
 
 # Run the script to obtain and configure SSL certificates
-CMD ["/usr/local/bin/obtain_ssl.sh"]
+# CMD ["/usr/local/bin/obtain_ssl.sh"]
