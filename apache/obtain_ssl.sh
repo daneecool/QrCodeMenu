@@ -1,32 +1,24 @@
 #!/bin/sh
 
-# Obtain SSL certificates using Certbot
-certbot certonly --webroot -w /usr/local/apache2/htdocs -d iwibarngsbryn.f5.si --email daneework93@gmail.com --agree-tos --non-interactive
+# Ensure Apache is running before obtaining SSL
+httpd &
 
-# Configure Apache to use the obtained SSL certificates
-cat <<EOT >> /usr/local/apache2/conf/httpd.conf
+# Wait for Apache to be fully up
+sleep 10
 
-# Enable SSL module
-LoadModule ssl_module modules/mod_ssl.so
+# Obtain SSL certificate using the webroot method
+certbot certonly --webroot -w /usr/local/apache2/htdocs -d iwibarngsbryn.f5.si --non-interactive --agree-tos --email daneework93@gmail.com
 
-# Listen on port 443 for HTTPS
-Listen 443
+# Check if the certificates were obtained successfully
+if [ -f /etc/letsencrypt/live/iwibarngsbryn.f5.si/fullchain.pem ] && [ -f /etc/letsencrypt/live/iwibarngsbryn.f5.si/privkey.pem ]; then
+    # Symlink SSL certificates (Apache expects them in a specific location)
+    ln -sf /etc/letsencrypt/live/iwibarngsbryn.f5.si/fullchain.pem /usr/local/apache2/conf/server.crt
+    ln -sf /etc/letsencrypt/live/iwibarngsbryn.f5.si/privkey.pem /usr/local/apache2/conf/server.key
 
-<VirtualHost *:443>
-    DocumentRoot "/usr/local/apache2/htdocs"
-    ServerName iwibarngsbryn.f5.si
-
-    SSLEngine on
-    SSLCertificateFile "/etc/letsencrypt/live/iwibarngsbryn.f5.si/fullchain.pem"
-    SSLCertificateKeyFile "/etc/letsencrypt/live/iwibarngsbryn.f5.si/privkey.pem"
-
-    <Directory "/usr/local/apache2/htdocs">
-        Options Indexes FollowSymLinks
-        AllowOverride All
-        Require all granted
-    </Directory>
-</VirtualHost>
-EOT
-
-# Restart Apache to apply changes
-httpd -k restart
+    # Restart Apache to apply SSL
+    killall httpd
+    httpd-foreground
+else
+    echo "Failed to obtain SSL certificates"
+    exit 1
+fi
