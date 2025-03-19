@@ -27,8 +27,3 @@ jobs:
       - name: Build Adminer Docker image
         run: |
           docker build -t adminer-image ./adminer
-
-      # Linux Dockerfile build
-      - name: Build Linux Docker image
-        run: |
-          docker build -t linux-image ./linux
