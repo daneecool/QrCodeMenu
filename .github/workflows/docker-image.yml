@@ -1,18 +1,34 @@
-name: Docker Image CI
+name: Multi Docker Build and Push
 
 on:
   push:
-    branches: [ "development" ]
-  pull_request:
-    branches: [ "development" ]
+    branches:
+      - development
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Apache Dockerfile build
+      - name: Build Apache Docker image
+        run: |
+          docker build -t apache-image ./apache
+
+      # PHP Dockerfile build
+      - name: Build PHP Docker image
+        run: |
+          docker build -t php-image ./php
+
+      # Adminer Dockerfile build
+      - name: Build Adminer Docker image
+        run: |
+          docker build -t adminer-image ./adminer
+
+      # Linux Dockerfile build
+      - name: Build Linux Docker image
+        run: |
+          docker build -t linux-image ./linux
