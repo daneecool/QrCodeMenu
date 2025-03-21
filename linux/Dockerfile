@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 # Update package list and install essential software
 RUN apt-get update && apt-get install -y \
-    cron wget nano vim curl unzip python3 python3-venv libaugeas0 apache2 certbot
+    cron wget nano vim curl unzip python3 python3-venv libaugeas0
 
 # Copy crontab file to the cron.d directory
 COPY ddns_update.cron /etc/cron.d/ddns_update

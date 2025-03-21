@@ -23,35 +23,34 @@ services:
       - ${PROJECT_ROOT}/:/var/www/html/
     container_name: php
 
-  apache:
-    build:
-      context: './apache/'
-      args:
-       APACHE_VERSION: ${APACHE_VERSION}
+  nginx-proxy:
+    image: nginx
+    container_name: nginx-proxy-iwi
+    volumes:
+      - ./conf.d:/etc/nginx/conf.d
+      - ./log:/var/log/nginx
+      - ./html:/usr/share/nginx/html
+      - ./letsencrypt:/etc/letsencrypt
+    ports:
+      - "8080:80"  # Map port 80 to 8080 on the host
+      - "8443:443" # Map port 443 to 8443 on the host
+    environment:
+      TZ: Asia/Tokyo
+    command: >
+      /bin/sh -c "while :; do sleep 36h & wait $${!}; nginx -s reload; done & nginx -g 'daemon off;'"
+    restart: always
     depends_on:
       - php
-      - mysql
-      - certbot
-    networks:
-      - frontend
-      - backend
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ${PROJECT_ROOT}/:/var/www/html/
-      - ./certbot/conf:/etc/letsencrypt
-      - ./certbot/www:/var/www/certbot
-    container_name: apache
 
   certbot:
-    image: certbot/certbot
+    image: certbot/certbot:latest
+    container_name: certbot-iwi
     volumes:
-      - ./certbot/conf:/etc/letsencrypt
-      - ./certbot/www:/var/www/certbot
-    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
-    container_name: certbot    
-
+      - ./html:/usr/share/nginx/html
+      - ./letsencrypt:/etc/letsencrypt
+      - ./log_letsencrypt:/var/log/letsencrypt
+    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 24h & wait $${!}; done;'"
+    restart: always
   mysql:
     image: mysql:${MYSQL_VERSION:-latest}
     restart: always
