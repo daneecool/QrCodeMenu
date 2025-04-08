@@ -32,7 +32,7 @@
       </li>
       <li>
         <a href="beer_en.php">
-        <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
+        <img src=" " alt="Beer" width="32" height="32">
         <span>Beer</span>
         </a>
       </li>
@@ -86,7 +86,7 @@
   </nav>
   <main>
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
+      <img src=" " alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
         <p>"A taste of luxury, without the price tag of a yacht." 🛥️🥃</p>
@@ -94,7 +94,7 @@
     </div>
 
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
+      <img src=" " alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
         <p>"One bottle, endless questionable decisions." 🤦‍♂️🍸</p>
@@ -102,7 +102,7 @@
     </div>
 
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
+      <img src=" " alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
         <p>"Pop the cork and pretend you’re royalty for the night." 👑🍾</p>
@@ -110,7 +110,7 @@
     </div>
     
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
+      <img src=" " alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
         <p>"The only bottle that makes you wonder, ‘How did I get here... and when’s the next shot?’" 😅🥃</p>

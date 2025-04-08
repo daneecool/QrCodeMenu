@@ -34,7 +34,7 @@
             </li>
             <li>
                 <a href="beer_en.php">
-                    <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
+                    <img src=" " alt="Beer" width="32" height="32">
                     <span>Beer</span>
                 </a>
             </li>

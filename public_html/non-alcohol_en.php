@@ -32,7 +32,7 @@
       </li>
       <li>
         <a href="beer_en.php">
-        <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
+        <img src=" " alt="Beer" width="32" height="32">
         <span>Beer</span>
         </a>
       </li>
@@ -86,7 +86,7 @@
   </nav>
   <main>
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
+      <img src=" " alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
         <p>"For when you need to stay bubbly without the hangover." 🥤✨</p>
@@ -94,7 +94,7 @@
     </div>
 
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
+      <img src=" " alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
         <p>"The drink that’s sweet, spicy, and totally underrated." 🍹🔥</p>
@@ -102,7 +102,7 @@
     </div>
 
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
+      <img src=" " alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
         <p>"The perfect balance between ‘I need caffeine’ and ‘I need peace’." ☕🍵</p>
@@ -110,7 +110,7 @@
     </div>
     
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
+      <img src=" " alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
         <p>"The OG fruit drink that never goes out of style." 🍎✨</p>
@@ -118,7 +118,7 @@
     </div>
 
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
+      <img src=" " alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
         <p>"For when your taste buds need a tropical getaway." 🍍✈️</p>
@@ -126,7 +126,7 @@
     </div>
 
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
+      <img src=" " alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
         <p>"The drink that’ll have you saying ‘Orange you glad I didn’t choose soda?’" 😜🍊</p>
@@ -134,7 +134,7 @@
     </div>
 
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
+      <img src=" " alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
         <p>"The drink that says, ‘I’m sweet... but not too sweet.’" 🍹🍊</p>
@@ -142,7 +142,7 @@
     </div>
     
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
+      <img src=" " alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
         <p>"The drink that says, ‘I’m not just for Bloody Marys, but I’ll still show up at brunch.’" 🍅</p>
@@ -150,7 +150,7 @@
     </div>
 
     <div class="item">
-      <img src="icons/icons8-beer-32.png" alt="Beer" width="32" height="32">
+      <img src=" " alt="Beer" width="32" height="32">
       <h3>Beer</h3>
       <div class="description-box">
         <p>"The drink that makes you feel like a superhero... until the crash." 💥🦸‍♀️</p>
