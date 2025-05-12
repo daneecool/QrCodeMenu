@@ -38,14 +38,14 @@
     <h3> Select your toxic </h3>
 
     <div class="container">
-        <a href = "menu .html?category=Beer"></a> Beer </a>
-        <a href = "menu .html?category=Wine"></a> Wine </a>
-        <a href = "menu .html?category=Non-Alcohol"></a> Non-Alcohol </a>
-        <a href = "menu .html?category=Shots"></a> Shots </a>
-        <a href = "menu .html?category=Cocktails"></a> Cocktails </a>
-        <a href = "menu .html?category=Premium Cocktails"></a> Premium Cocktails </a>
-        <a href = "menu .html?category=Japanese Sake"></a> Japanese </a>
-        <a href = "menu .html?category=Bottle"></a> Bottle </a>
+        <a href = "menu.html?category=Beer"></a> Beer </a>
+        <a href = "menu.html?category=Wine"></a> Wine </a>
+        <a href = "menu.html?category=Non-Alcohol"></a> Non-Alcohol </a>
+        <a href = "menu.html?category=Shots"></a> Shots </a>
+        <a href = "menu.html?category=Cocktails"></a> Cocktails </a>
+        <a href = "menu.html?category=Premium Cocktails"></a> Premium Cocktails </a>
+        <a href = "menu.html?category=Japanese Sake"></a> Japanese </a>
+        <a href = "menu.html?category=Bottle"></a> Bottle </a>
     </div>
 
 </body>
